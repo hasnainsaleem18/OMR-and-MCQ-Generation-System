@@ -73,7 +73,7 @@ Both functionalities leverage tools like OpenCV for image processing and are int
 ## Screenshots/Diagrams
 
 ### MAIN OMR SHEET
-![](omr_sheet.pdf)
+![](images/omr_sheet.png)
 
 ### Step 1: Main Dashboard
 The main dashboard provides two options:
