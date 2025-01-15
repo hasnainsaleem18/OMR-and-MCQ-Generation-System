@@ -80,7 +80,7 @@ The main dashboard provides two options:
 - Upload a PDF to specify the number of MCQs via the GROQ API.
 - Process OMR sheets.
 
-(images/1.png)
+!(images/1.png)
 
 ### Step 2: Upload PDF and Specify MCQs
 If the user selects the first option:
