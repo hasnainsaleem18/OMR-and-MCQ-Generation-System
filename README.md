@@ -73,7 +73,7 @@ Both functionalities leverage tools like OpenCV for image processing and are int
 ## Screenshots/Diagrams
 
 ### MAIN OMR SHEET
-(omr_sheet.pdf)
+![](omr_sheet.pdf)
 
 ### Step 1: Main Dashboard
 The main dashboard provides two options:
@@ -90,26 +90,26 @@ If the user selects the first option:
    - A PDF file containing MCQs and answers.
    - A CSV file with answers for OMR checking.
 
-(images/2.png)
+![](images/2.png)
 
 ### Step 3: Process OMR Sheets
 If the user selects the second option, they see:
 1. An option to process a bundle of OMR sheets.
 2. An option to scan a single OMR sheet (steps remain the same for both).
 
-(images/3.png)
+![](images/3.png)
 
 ### Step 4: Upload OMR and Answer Key
 1. Upload a scanned OMR sheet.
-(images/4.png)
+![](images/4.png)
 2. Upload a CSV file containing answers.
 3. Click "Process" to start execution.
-(images/5.png)
+![](images/5.png)
 
 ### Step 5: Convert OMR Sheet to Grayscale
 The system converts the entire OMR sheet to a grayscale image for processing.
 
-(images/6.png)
+![](images/6.png)
 
 ### Step 6: Scan OMR Sheet in Parts
 The sheet is divided into sections for scanning:
@@ -122,23 +122,23 @@ This method ensures 100% success in recognition.
 ### Step 7: Threshold Image for Roll Number
 The roll number section is converted to a threshold image for clarity.
 
-(images/7.png)
-(images/8.png)
+![](images/7.png)
+![](images/8.png)
 
 ### Step 8: Highlight Filled Circles
 The grid is created, highlighting filled circles for answers.
 
-(images/9.png)
-(images/10.png)
+![](images/9.png)
+![](images/10.png)
 
 ### Step 9: Process MCQs 1–10
 1. Convert the section to a binary image.
-   (images/11.png)
-   (images/12.png)
+   ![](images/11.png)
+   ![](images/12.png)
 2. Detect contours.
-   (images/13.png)
+   ![](images/13.png)
 3. Highlight filled circles.
-   (images/14.png)
+   ![](images/14.png)
 
 
 
@@ -148,15 +148,15 @@ Steps are repeated for:
 - MCQs 21–30.
 Each section undergoes the same binary conversion, contour detection, and highlighting process.
 
-(images/15.png)
-(images/16.png)
-(images/17.png)
-(images/18.png)
-(images/19.png)
-(images/20.png)
-(images/21.png)
-(images/22.png)
-(images/23.png)
+![](images/15.png)
+![](images/16.png)
+![](images/17.png)
+![](images/18.png)
+![](images/19.png)
+![](images/20.png)
+![](images/21.png)
+![](images/22.png)
+![](images/23.png)
 
 ## Contributions
 Contributions are welcome! Please submit a pull request or create an issue for suggestions and improvements.
